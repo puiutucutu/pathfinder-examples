@@ -1,0 +1,6 @@
+{
+    "name": "pathfinder-examples",
+    "require-dev":  {
+      "stratadox/pathfinder": "^0.1"
+    }
+}
