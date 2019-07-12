@@ -2,7 +2,7 @@
 
 This example contains the code necessary to retrieve all-pairs shortest paths from `A → E` and `E → A`.
 
-Note, that currently the library does not provide a way to retrieve all-pairs all paths between `A → E`. It is computationally expensive and slow and would require a specific use case. For example, the library will correctly identify the shortest path from `A → E` as being the actual edge connecting vertex A to vertex E, but it will not be able to return the alternate path from `A → E` which is `A → B → F → E` (since it is not the shortest).
+Note, that currently the library does not provide a way to retrieve *all-pairs all paths* between `A → E`. It is computationally expensive and slow and would require a specific use case. For example, the library will correctly identify the shortest path from `A → E` as being the actual edge connecting vertex A to vertex E, but it will not be able to return the alternate path from `A → E` which is `A → B → F → E` (since it is not the shortest).
 
 The adjacency list graph below continues to be the basis for this example.
 
