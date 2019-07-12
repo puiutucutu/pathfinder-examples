@@ -1,6 +1,6 @@
 # 4 - Using MultiDijkstraPathfinder to Find Paths
 
-This example contains the code necessary to retrieve all shortest paths from `A → E` and `E → A` using hte Dijkstra algorithm.
+This example contains the code necessary to retrieve all shortest paths from `A → E` and `E → A` using the Dijkstra algorithm.
 
 The graph being operated on remains the same.
 
