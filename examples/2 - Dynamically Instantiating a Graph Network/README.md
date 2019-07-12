@@ -43,9 +43,9 @@ $directedNetwork = GraphNetwork::create()
 
 An undirected graph can be represented as follows. 
 
-The benefit of using an undirected graph with the Pathfinder library is that you can find the paths to all other nodes form any starting node; i.e., you can find the path from E to all other nodes using this undirected graph whereas you cannot do so in the above directed graph example. 
+The benefit of using an undirected graph with the Pathfinder library is that you can find the all-pairs shortest path to all other nodes form any source vertex. As an example, you can obtain the shortest paths from `E` to all other vertices using an undirected graph whereas you cannot do so in the directed graph example above.
 
-Running any Pathfinder algorithms on the undirected graph will be much slower of course.
+Running any Pathfinder algorithms on the undirected graph (assuming the same amount of vertices) will be much slower of course since there will be more edges to traverse.
 
 ```php
 <?php
