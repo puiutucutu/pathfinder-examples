@@ -1,6 +1,6 @@
 # Example 2 - Dynamically Instantiating a Graph Network
 
-This example shows how to dynamically instantaite a Pathfinder graph network using an array of vertex pairs.
+This example shows how to dynamically instantiate a Pathfinder graph network using an array of vertex pairs.
 
 Given the following graph represented as an adjacency list:
 
