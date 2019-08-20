@@ -76,14 +76,17 @@ function convertAdjacencyListGraphToUndirectedPathfinderGraph(array $adjacencyLi
         $adjacentVertices = getAdjacentVertices($adjacencyList, $vertexId);
         $adjacentVerticesCount = count($adjacentVertices);
         $head = $adjacentVertices[0];
+        
         if ($adjacentVerticesCount === 1) {
             $network = $network->withVertex($vertexId, WithEdge::to($head));
-        } elseif ($adjacentVerticesCount >= 2) {
+        } 
+        elseif ($adjacentVerticesCount >= 2) {
             $tail = array_slice($adjacentVertices, 1);
             $network = $network->withVertex($vertexId, WithEdge::toTargets($head, ...$tail));
-        } else {
+        } 
+        else {
             throw new OutOfBoundsException(
-                "Do not know how to handle when count of vertices is !== 1 or not >= 2"
+                "Do not know how to handle when the count of adjacent vertices is zero or a non positive integer"           
             );
         }
     }
