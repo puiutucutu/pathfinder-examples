@@ -1,6 +1,6 @@
 # Example 2 - Dynamically Instantiating a Graph Network
 
-This example shows how to dynamically instantiate a Pathfinder graph network using an array of vertex pairs.
+This example shows demonstrates how to dynamically instantiate a Pathfinder graph network using an array of vertex pairs.
 
 Given the following graph `$adjacencyListGraph`, stored as an adjacency list of doubly linked lists, the provided function `convertAdjacencyListGraphToUndirectedPathfinderGraph()` will convert it to an instance of a Pathfinder graph.
 
