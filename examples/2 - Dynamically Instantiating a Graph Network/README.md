@@ -4,7 +4,7 @@ This example shows demonstrates how to dynamically instantiate a Pathfinder grap
 
 Given the following graph `$adjacencyListGraph`, stored as an adjacency list of doubly linked lists, the provided function `convertAdjacencyListGraphToUndirectedPathfinderGraph()` will convert it to an instance of a Pathfinder graph.
 
-This is useful for instantiating a Pathfinder graph without having to manually write out `withVertex()` each time.
+This is useful for instantiating a Pathfinder network without having to manually write out `withVertex()`, `WithEdge::to(...)`, or `WithEdge::toTargets(...)`.
 
 ```php
 <?php
